@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="css/home.css"></head>
+	<link rel="stylesheet" href="css/respontive.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/start.js"></script>
+<body>
+	<div class="details">
+		<div class="section_one">
+			<div class="title">
+				<h3>Học Excel Online Training</h3>
+			</div>
+			<div class="caculate">
+				<h3>Tính lợi nhuận của buổi hòa nhạc</h3>
+				<i id="dropdown" class="fa fa-chevron-down"></i>
+			</div>
+		</div>
+		<div class="section_two">
+			<div id="article1">
+					<ol class="menu">
+						<li><span class="circle"></span><a href="" id="go1">Phép cộng</a></li>
+						<li><span class="circle"></span><a href="" id="go2">Phép trừ</a></li>
+						<li><span class="circle"></span><a href="" id="go3">Phép nhân</a></li>
+						<li><span class="circle"></span><a href="" id="go4">Phép chia</a></li>
+						<li><span class="circle"></span><a href="" id="go5">Copy công thức</a></li>
+						<li><span class="circle"></span><a href="" id="go6">Tham chiếu tuyệt đối</a></li>
+						<li><span class="circle"></span><a href="">Sử dụng hàm Rank()</a></li>
+						<li><span class="circle"></span><a href="">Sử dụng hàm SUM()</a></li>
+						<li><span class="circle"></span><a href="">Tính trung bình</a></li>
+						<li><span class="circle"></span><a href="">Tính giá trị nhỏ nhất</a></li>
+					</ol>
+			</div>
+			<article id="article2" class="hide">
+				<div class="require">
+					<span class="icon"><img src="images/book.png" alt=""></span> 
+					<h3 class="header">1. Phép cộng</h3>
+					<p class="guide">Trong Excel, để thực hiện phép cộng giá trị từ 1 ô với 1 ô khác, chúng ta sử dụng dấu <strong class="operator">+</strong> trên bàn phím<p>
+					<p class="example"> Ví dụ: Tính tổng số vé của Salon số 12 và Salon số 13, tức là tính tổng của giá trị trong ô C15 và C16. Trong 1 ô bất kì, ta nhập vào công thức như sau
+					</p>
+					<strong class="operation">= C15 + C16</strong>
+				</div>
+				<div class="mission">
+					<span class="icon"><img src="images/mission.png" alt=""></span> 
+					<h3 class="header">Nhiệm vụ</h3>
+					<p class="total">Tính tổng số vé 4 Salon đầu tiên</p>
+					<ul class="parts">
+						<li><span>1</span> Chọn ô <strong class="cell">D2</strong></li>
+						<li><span>2</span> Tính tổng số vé của 4 Salon đầu tiên <br>
+								<input type="text" value="" id="sum">
+						</li>
+						<li><span>3</span> Bấm phím enter trên bàn phím <img src="images/icon-enter.png" alt=""></li>
+					</ul>
+				</div>
+				<div class="submit">
+					<button class="btn" type="button">Kiểm tra</button>
+				</div>
+			</article>
+			<article id="article3" class="hide">
+				<div class="require">
+					<span class="icon"><img src="images/book.png" alt=""></span> 
+					<h3 class="header">2. Phép trừ</h3>
+					<p class="guide">Trong Excel, để thực hiện phép trừ giá trị từ 1 ô với 1 ô khác, chúng ta sử dụng dấu <strong class="operator">-</strong> trên bàn phím </p>
+					<p class="example">Ví dụ: Tính hiệu của A3 trừ đi A2, chúng ta sử dụng công thức như sau.
+					</p>
+					<strong class="operation">= A3 - A2</strong>
+				</div>
+				<div class="mission">
+					<span class="icon"><img src="images/mission.png" alt=""></span> 
+					<h3 class="header">Nhiệm vụ</h3>
+					<p class="total">Tính số vé còn lại</p>
+					<ul class="parts">
+						<li><span>1</span> Chọn ô <strong class="cell">E4</strong></li>
+						<li><span>2</span> Lấy số vé ban đầu trừ đi số vé bán được <br>
+								<input type="text" value="" id="sum">
+						</li>
+						<li><span>3</span> Bấm phím enter trên bàn phím <img src="images/icon-enter.png" alt=""></li>
+					</ul>
+				</div>
+				<div class="submit">
+					<button class="btn" type="button">Kiểm tra</button>
+				</div>
+			</article>
+			<article id="article4" class="hide">
+				<div class="require">
+					<span class="icon"><img src="images/book.png" alt=""></span> 
+					<h3 class="header">3. Phép nhân</h3>
+					<p class="guide">Trong Excel, để thực hiện phép nhân, chúng ta có thể sử dụng
+					dấu <strong class="operator">*</strong> để có thể nhân 2 hay nhiều giá trị.
+					<p class="example">Ví dụ: Tính tích của A3 và A2, chúng ta sử dụng công thức
+					như sau 
+					</p>
+					<strong class="operation">= A3 * A2</strong>
+				</div>
+				<div class="mission">
+					<span class="icon"><img src="images/mission.png" alt=""></span> 
+					<h3 class="header">Nhiệm vụ</h3>
+					<p class="total">Tính doanh số bán vé</p>
+					<ul class="parts">
+						<li><span>1</span> Chọn ô <strong class="cell">G4</strong></li>
+						<li><span>2</span> Lấy số vé bán được nhân với giá vé <br>
+								<input type="text" value="" id="sum">
+						</li>
+						<li><span>3</span> Bấm phím enter trên bàn phím <img src="images/icon-enter.png" alt=""></li>
+					</ul>
+				</div>
+				<div class="submit">
+					<button class="btn" type="button">Kiểm tra</button>
+				</div>
+			</article>
+			<article id="article5" class="hide">
+				<div class="require">
+					<span class="icon"><img src="images/book.png" alt=""></span> 
+					<h3 class="header">4. Phép chia</h3>
+					<p class="guide">Trong Excel, để thực hiện phép chia, chúng ta có thể sử dụng
+					dấu <strong class="operator">/</strong> để có thể chia 1 số A cho 1 số B khác 0.
+					<p class="example">Ví dụ: Tính thương của A3 chia A2, chúng ta sử dụng công thức như sau
+					</p>
+					<strong class="operation">= A3 / A2</strong>
+				</div>
+				<div class="mission">
+					<span class="icon"><img src="images/mission.png" alt=""></span> 
+					<h3 class="header">Nhiệm vụ</h3>
+					<p class="total">Tính tỉ lệ vé chưa bán được</p>
+					<ul class="parts">
+						<li><span>1</span> Chọn ô <strong class="cell">F4</strong></li>
+						<li><span>2</span> Lấy số vé chưa bán được chia cho tổng số vé <br>
+								<input type="text" value="" id="sum">
+						</li>
+						<li><span>3</span> Bấm phím enter trên bàn phím <img src="images/icon-enter.png" alt=""></li>
+					</ul>
+				</div>
+				<div class="submit">
+					<button class="btn" type="button">Kiểm tra</button>
+				</div>
+			</article>
+			<article id="article6" class="hide">
+				<div class="require">
+					<span class="icon"><img src="images/book.png" alt=""></span> 
+					<h3 class="header">5. Copy công thức</h3>
+					<p>Excel giúp chúng ta làm việc nhanh hơn bằng cách cho phép
+					các công thức được copy 1 cách rất dễ dàng bằng “Fill handle”
+					là hình vuông nhỏ bên góc phải bên dưới khi bạn dùng chuột
+					để chọn 1 vùng trên bảng tính Excel
+					</p>
+					<img src="images/huongdan.png" alt="" class="test">
+				</div>
+				<div class="mission">
+					<span class="icon"><img src="images/mission.png" alt=""></span> 
+					<h3 class="header">Nhiệm vụ</h3>
+					<p class="total">Copy công thức đã có từ dòng 14 cho dòng 5 đến dòng 16</p>
+					<ul class="parts">
+						<li><span>1</span> Chọn vùng <strong class="cell">E4:G4</strong></li>
+						<li><span>2</span> Bấm giữ chuột trái vào Fill handle và kéo xuống đến hết
+						dòng 16 rồi thả ra.</li>
+					</ul>
+				</div>
+				<div class="submit">
+					<button class="btn" type="button">Kiểm tra</button>
+				</div>
+			</article>
+		</div>
+
+	</div>
+
+</body>
+</html>
