@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "rocroi";  
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'rocroi';
+    src: url('../fonts/r0c0i-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+.detail{
+	width: 38%;
+    float: right;
+}
+li{
+    list-style: none;
+}
+.require,.mission,xemThem{
+    padding: 10px;
+}
+.icon img{
+    height: 25px;
+    vertical-align: bottom
+}
+.header{
+    display: inline;
+    color: #808080;
+}
+.header-big{
+    display: inline;
+    font-weight: 500px;
+    color: #808080;
+}
+.pic-demo{
+    width: 60%;
+    display: block;
+    margin: 5px auto;
+    
+}
+.bgblu{
+    background: #94c9fa!important;
+}
+.bggre{
+    background: #3dcf61 !important;
+}
+.bl{
+    color: #808080;
+}
+.gr{
+    color: #8f9195;
+}
+.blu{
+    color: #94c9fa;
+}
+.require{
+	background: #d7dde1;
+}
+.mission{
+	background: #eff4f8;
+}
+.submit{
+	background: white;
+}
+.content-require{
+    margin: 15px 0 10px 0;
+    color: #8f9195;
+}
+.content-mission{
+	margin: 15px 0 10px 0;
+    color: #8f9195;
+}
+.badge{
+    display: inline-block;
+    min-width: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #777;
+    border-radius: 10px;
+}
+.parts li{
+    margin: 10px 0 10px 0;
+}
+.cell{
+	color: #94c9fa;
+}
+.submit{
+    text-align: right;
+}
+.submit .btn {
+    padding: 5px 30px;
+    margin: 30px 60px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #777;
+    border-radius: 15px;
+    border: 0px;
+}
+.gif-vid{
+    width: 90%;
+    height: 250px;
+    background: gray;
+}
