@@ -230,13 +230,16 @@ body{
     font-family: "rocroi";
     color:#8f9195;
 }
+.section_two .mission .total{
+    margin-left: 10px;
+}
 .section_two .mission img{
     height: 40px;
 }
-.section_two .mission h3{
+.section_two .mission .header{
     position: absolute;
     top: 20px;
-    left: 50px;
+    left: 36px;
 }
 .section_two .mission .parts{
     list-style: none;
@@ -248,7 +251,7 @@ body{
 .section_two .mission .parts li{
     padding: 20px;
     padding-left: 20px;
-    margin-left: 20px;
+    margin-left: 35px;
     position: relative;
 }
 .section_two .mission .parts span{
