@@ -1,8 +1,14 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: "rocroi";  
+    font-family: "Linotte";  
     box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Linotte';
+    src: url('../fonts/r0c0i-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
     font-family: 'rocroi';
@@ -10,11 +16,11 @@
     font-weight: normal;
     font-style: normal;
 }
-.detail{
-	width: 38%;
+/*.detail{
+	overflow: hidden;
     float: right;
 }
-li{
+*/li{
     list-style: none;
 }
 .require,.mission,.xemThem{
