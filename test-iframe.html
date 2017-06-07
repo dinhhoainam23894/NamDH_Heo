@@ -3,11 +3,55 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Test-iframe</title>
+	<link rel="stylesheet" href="css/test.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<script src="js/jquery-3.2.1.min.js"></script>
 </head>
 <body>
-	<iframe src="demo_iframe.htm" name="iframe_a" width="500px" height="640px" scrolling="no">
-	</iframe>
-
-<a href="5-CoppyCongThuc.html" target="iframe_a">W3Schools.com</a>
+	<div class="container">
+		<div class="title">
+			<h3>Học Excel Online Training</h3>
+		</div>
+		<div class="caculate">
+			<h3>Tính lợi nhuận của buổi hòa nhạc</h3>
+			<i id="dropdown" class="fa fa-chevron-down"></i>
+		</div>
+		<div id="article1">
+			<ol class="menu">
+				<li><span class="circle"></span><a href="" id="go1">Phép cộng</a></li>
+				<li><span class="circle"></span><a href="" id="go2">Phép trừ</a></li>
+				<li><span class="circle"></span><a href="" id="go3">Phép chia</a></li>
+				<li><span class="circle"></span><a href="4-PhepNhan.html" target="iframe_a">Phép nhân</a></li>
+				<li><span class="circle"></span><a href="5-CoppyCongThuc.html" target="iframe_a">Copy công thức</a></li>
+				<li><span class="circle"></span><a href="" id="go6">Tham chiếu tuyệt đối</a></li>
+				<li><span class="circle"></span><a href="">Sử dụng hàm Rank()</a></li>
+				<li><span class="circle"></span><a href="">Sử dụng hàm SUM()</a></li>
+				<li><span class="circle"></span><a href="">Tính trung bình</a></li>
+				<li><span class="circle"></span><a href="">Tính giá trị nhỏ nhất</a></li>
+			</ol>
+		</div>
+		<iframe src="demo_iframe.htm" name="iframe_a" width="500px" height="600px" scrolling="no" id="iframe_a">
+		</iframe>
+	</div>
+	
+	
+<script>
+	$(document).ready(function($) {
+		$('#article1').hide();
+		$('.caculate').click(function(event) {
+			if ($('#article1').is(':hidden') == true) {
+				$('#article1').show()
+				$('#iframe_a').hide();
+			}else{
+				$('#article1').hide();
+				$('#iframe_a').show();
+			}
+		});
+		$('#article1 li').click(function(event) {
+			$('#article1').hide();
+			$('#iframe_a').show();
+		});
+	});
+</script>
 </body>
 </html>

@@ -4,6 +4,14 @@
     font-family: "Linotte";  
     box-sizing: border-box;
 }
+.container{
+	width: 500px;
+    float: right;
+}
+#iframe_a{
+    width: 500px;
+    float: right;
+}
 @font-face {
     font-family: 'Linotte';
     src: url('../fonts/r0c0i-Regular.ttf');
@@ -16,11 +24,11 @@
     font-weight: normal;
     font-style: normal;
 }
-/*.detail{
-	overflow: hidden;
+.detail{
+	width: 500px;
     float: right;
 }
-*/li{
+li{
     list-style: none;
 }
 .require,.mission,.xemThem{
@@ -36,7 +44,7 @@
 }
 .header-big{
     display: inline;
-    font-weight: 500px;
+    font-weight: inherit;
     color: #808080;
 }
 .pic-demo{
@@ -116,4 +124,8 @@
     width: 90%;
     height: 250px;
     background: gray;
+}
+/*css Menu*/
+.caculate h3{
+    display: inline-block;
 }
